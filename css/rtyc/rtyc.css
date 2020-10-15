@@ -1,0 +1,787 @@
+/* banner区域 */
+.banner {
+  width: 100%;
+}
+
+.banner .banner1,
+.banner2,
+.banner3,
+.banner4,
+.banner5 {
+  width: 100%;
+  margin: 0 auto;
+  height: 103px;
+  text-align: center;
+}
+
+.banner1 {
+  background: url(../../image/kqzz/banner1.jpg) no-repeat;
+   background-size: 100% 104px;
+}
+
+.banner2 {
+  background: url(../../image/kqzz/banner2.jpg) no-repeat;
+   background-size: 100% 104px;
+}
+
+.banner3 {
+  background: url(../../image/kqzz/banner3.jpg) no-repeat;
+   background-size: 100% 104px;
+}
+
+.banner4 {
+  background: url(../../image/kqzz/banner4.jpg) no-repeat;
+   background-size: 100% 104px;
+}
+
+.banner5 {
+  background: url(../../image/kqzz/banner5.jpg) no-repeat;
+   background-size: 100% 104px;
+}
+
+/* banner 旋转 */
+.xuanzuan {
+  animation: xuanzuan 1s linear 0s;
+}
+
+@keyframes xuanzuan {
+  from {
+    transform: rotateX(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg);
+  }
+}
+
+
+/* 内容区域 */
+
+
+/* 内容1 哪些原因导致面型不好看和牙列不齐 */
+.con .con1 {
+  overflow: hidden;
+}
+
+.con .con1 .title {
+  width: 100%;
+  height: 80px;
+  background: url(../../image/rtck/cont1_top.jpg) no-repeat center;
+}
+
+.con .con1 .text {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+.con .con1 .text .fl_01 {
+  float: left;
+  width: 410px;
+  height: 552px;
+  background: url(../../image/rtck/zj9.png) no-repeat center;
+  margin-left: -40px;
+  margin-top: 50px;
+}
+
+.con .con1 .text .fl_02 {
+  width: 275px;
+  float: left;
+  height: 552px;
+  margin-top: 20px;
+}
+
+.con .con1 .text .fl_02 p {
+  text-indent: 2em;
+  font-size: 18px;
+  color: #333;
+  margin: 0px 10px;
+  line-height: 30px;
+}
+
+.con .con1 .text .fl_02 img {
+  margin-top: 20px;
+}
+
+.con .con1 .text .fr {
+  width: 528px;
+  float: left;
+  border-bottom: 1px solid #ccc;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.con .con1 .text .fr img {
+  float: left;
+  margin-right: 10px;
+}
+
+.con .con1 .text .fr p {
+  text-indent: 2em;
+  font-size: 16px;
+  line-height: 25px;
+  margin-top: 5px;
+}
+
+/* 内容2 没齿难忘 */
+.con .con2 {
+  overflow: hidden;
+}
+
+.con .con2 .title {
+  width: 100%;
+  height: 80px;
+  background: url(../../image/rtck/cont2_top.jpg) no-repeat center;
+}
+
+.con .con2 .fl {
+  width: 405px;
+  float: left;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.con .con2 .fl .fls {
+  width: 190px;
+  text-align: center;
+  float: left;
+}
+
+.con .con2 .fl .fls:nth-child(-n+2) {
+  margin-bottom: 45px;
+}
+
+.con .con2 .fl .fls:nth-child(1),
+.con .con2 .fl .fls:nth-child(3) {
+  margin-right: 25px;
+}
+
+
+
+.con .con2 .fl .fls img {
+  border-radius: 50%;
+}
+
+.con .con2 .fl .fls p {
+  font-size: 18px;
+  line-height: 50px;
+  color: #3086ac;
+}
+
+.con .con2 .fr {
+  width: 765px;
+  float: right;
+  overflow: hidden;
+
+}
+
+.con .con2 .fr img {
+  overflow: hidden;
+}
+
+.con .con2 .fr p {
+  text-indent: 2em;
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 35px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.con .con2 .fr .btn {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.con .con2 .fr .btn img {
+  float: left;
+  margin-left: 140px;
+}
+
+.con .con2 .fr span {
+  font-size: 16px;
+  color: #333;
+}
+
+/* 内容3 种植牙 */
+.con .con3 {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.con .con3 .title {
+  width: 100%;
+  height: 80px;
+  background: url(../../image/rtck/cont3_top.jpg)no-repeat center;
+}
+
+.con .con3 .text {
+  width: 100%;
+  background-color: #f3fad7;
+  padding: 0px 15px 15px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 15px;
+  position: relative;
+
+}
+
+.con .con3 .text .top {
+  width: 100%;
+  height: 80px;
+  background: url(../../image/rtck/cont3_top1.jpg)no-repeat center;
+
+}
+
+.con .con3 .text .fl_01 {
+  width: 400px;
+  float: left;
+  margin-bottom: 50px;
+}
+
+.con .con3 .text .fl_01:nth-child(3) {
+  float: right;
+}
+
+.con .con3 .text .fl_01 h3 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.con .con3 .text .fl_01 h3 span {
+  width: 40px;
+  height: 30px;
+  display: inline-block;
+  background: url(../../image/rtck/list_bg.jpg)no-repeat center;
+  background-size: 40px 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.con .con3 .text .fl_01 .fl_01box {
+  width: 400px;
+  background: url(../../image/rtck/00012.png) center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.con .con3 .text .fl_01 .fl_01box img {
+  width: 100%;
+  margin-bottom: 30px;
+  color: #4d4d4d
+}
+
+.con .con3 .text .fl_01 .fl_01box p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.con .con3 .text .fl_01 .fl_01box p b {
+  color: #d3a4ff;
+}
+
+.con .con3 .text .fl_02 {
+  width: 400px;
+  float: left;
+}
+
+.con .con3 .text .fl_02:nth-child(5) {
+  float: right;
+}
+
+.con .con3 .text .fl_02 h3 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.con .con3 .text .fl_02 h3 span {
+  width: 40px;
+  height: 30px;
+  display: inline-block;
+  background: url(../../image/rtck/list_bg.jpg)no-repeat center;
+  background-size: 40px 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.con .con3 .text .fl_02 h3 b {
+  color: #F78B20;
+}
+
+.con .con3 .text .fl_02 .fl_02box {
+  background: url(../../image/rtck/00012.png) center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+
+}
+
+.con .con3 .text .fl_02 .fl_02box dl {
+
+  line-height: 30px;
+}
+
+.con .con3 .text .fl_02 .fl_02box dl dt {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 550;
+  color: #d3a4ff;
+}
+
+.con .con3 .text .fl_02 .fl_02box dl dd {
+  color: #00FFFF;
+}
+
+.con .con3 .text .fl_02 .fl_02box p {
+  font-size: 16px;
+  color: #fff;
+  line-height: 30px;
+
+}
+
+.con .con3 .text .con_03 {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.con .con3 .text .con_03 h3 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.con .con3 .text .con_03 h3 span {
+  width: 40px;
+  height: 30px;
+  display: inline-block;
+  background: url(../../image/rtck/list_bg.jpg)no-repeat center;
+  background-size: 40px 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  margin-right: 10px;
+}
+
+.con .con3 .text .con_03 h5 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.con .con3 .text .con_03 .btn {
+  width: 100%;
+  height: 80px;
+  background: url(../../image/rtck/cont2_btn2.png) no-repeat center;
+}
+
+
+.con .con3 .text_02 {
+  width: 100%;
+  background: #cedef9;
+  margin-top: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.con .con3 .text_02 .top {
+  width: 100%;
+  height: 80px;
+  background: url(../../image/rtck/cont3_ettop2.jpg) no-repeat center;
+}
+
+.con .con3 .text_02 .box02,
+.con .con3 .text_02 .box03,
+.con .con3 .text_02 .box04 {
+  width: 100%;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.con .con3 .text_02 .box02 h3,
+.con .con3 .text_02 .box04 h3 {
+  margin-left: 45px;
+  font-size: 25px;
+  line-height: 40px;
+  color: #AD5A5A;
+
+}
+
+.con .con3 .text_02 .box03 .btn {
+  width: 200px;
+  height: 55px;
+  background: url(../../image/rtck/cont2_btn2.png)no-repeat center;
+  background-size: 200px 55px;
+  float: right;
+  margin-top: 130px;
+  margin-left: 20px;
+}
+
+.con .con3 .text_02 .box02 .text_fl {
+  width: 550px;
+  border: 1px solid #ccc;
+  float: left;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  background-color: #F78B20;
+  color: #333;
+  border-radius: 20px;
+}
+
+.con .con3 .text_02 .box02 .text_fl:nth-child(3) {
+  width: 600px;
+  height: 345px;
+  float: right;
+  background-color: #95D300;
+}
+
+.con .con3 .text_02 .box02 .text_fl:nth-child(4) {
+  background-color: #F8A3BD;
+}
+
+
+.con .con3 .text_02 .box02 .text_fl h5,
+.con .con3 .text_02 .box03 .text_fl h5 {
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  color: #fdfdfd;
+}
+
+.con .con3 .text_02 .box02 .text_fl p,
+.con .con3 .text_02 .box03 .text_fl p {
+  font-size: 16px;
+  text-indent: 2em;
+  color: #333;
+
+  line-height: 30px;
+}
+
+
+.con .con3 .text_02 .box03 h3 {
+  margin-left: 45px;
+  font-size: 25px;
+  line-height: 40px;
+  color: #AD5A5A;
+}
+
+.con .con3 .text_02 .box03 .text_box,
+.con .con3 .text_02 .box04 .text_box {
+  display: flex;
+  margin-top: 20px;
+}
+
+.con .con3 .text_02 .box03 .text_fl,
+.con .con3 .text_02 .box04 .text_fl {
+  flex: 1;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-right: 20px;
+  background-color: #AD5A5A;
+}
+
+.con .con3 .text_02 .box03 .text_fl:last-child,
+.con .con3 .text_02 .box04 .text_fl:last-child {
+  margin-right: 0px;
+}
+
+
+.con .con3 .text_02 .box03 .text_fl:nth-child(2) {
+  background-color: #408080;
+}
+
+.con .con3 .text_02 .box03 .text_fl:nth-child(3) {
+  background-color: #FFD306;
+}
+
+.con .con3 .text_02 .box04 .text_fl {
+  text-align: center;
+  background-color: #cedef9;
+  overflow: hidden;
+}
+
+/* 内容5 牙齿意外受损 */
+.con .con3 .text_03 {
+  width: 100%;
+  background-color: #ccfefc;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.con .con3 .text_03 .top {
+  width: 100%;
+  height: 50px;
+  background: url(../../image/rtck/cont3_top3.jpg)no-repeat center;
+  margin-bottom: 30px;
+}
+
+.con .con3 .text_03 .text_03box {
+  width: 950px;
+  height: 300px;
+  border: 10px solid #2b6fa0;
+  float: right;
+}
+
+.con .con3 .text_03 .text_03box img {
+  margin-top: 60px;
+  margin-left: -130px;
+  border-radius: 15px;
+}
+
+.con .con3 .text_03 .text_03box .fr_box {
+  width: 800px;
+  float: right;
+  padding-top: 25px;
+  box-sizing: border-box;
+}
+
+.con .con3 .text_03 .text_03box .fr_box .fl {
+  float: left;
+}
+
+.con .con3 .text_03 .text_03box .fr_box .fr {
+  float: right;
+}
+
+.con .con3 .text_03 .text_03box .fr_box h5 {
+  font-size: 25px;
+  line-height: 45px;
+  display: inline-block;
+  color: #2b6fa0;
+  border-bottom: 2px solid #ccc;
+}
+
+.con .con3 .text_03 .text_03box .fr_box h5 span {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  line-height: 35px;
+  background: url(../../image/rtck/cont3_ax.jpg)no-repeat center;
+  background-size: 35px 35px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.con .con3 .text_03 .text_03box .fr_box h5 .btn {
+  width: 200px;
+  height: 55px;
+  background: url(../../image/rtck/cont2_btn2.png)no-repeat center;
+  background-size: 200px 55px;
+  float: right;
+  margin-left: 30px;
+  margin-top: -20px;
+  margin-right: 10px;
+}
+
+.con .con3 .text_03 .text_03box .fr_box p {
+  font-size: 16px;
+  line-height: 30px;
+  margin-left: 30px;
+}
+
+.con .con3 .text_03 .text_03box .fr_box .fl_p {
+  width: 370px;
+  float: left;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+.con .con3 .text_03 .text_03box .fr_box .fl_p p {
+  margin-left: 0px;
+  text-indent: 2em;
+  line-height: 30px;
+  margin-top: 15px;
+}
+
+.con .con4 {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.con .con4 .con4_box1,
+.con .con4 .con4_box2,
+.con .con4 .con4_box3, 
+.con .con4 .con4_box4 {
+  width: 100%;
+}
+
+.con .con4 .con4_box1 .title,
+.con .con4 .con4_box2 .title,
+.con .con4 .con4_box3 .title, 
+.con .con4 .con4_box4 .title {
+  margin-top: 30px;
+  width: 100%;
+  height: 100px;
+  background: url(../../image/rtck/cont4_ettop.jpg)no-repeat center;
+  background-size: 100% 100px;
+}
+
+
+
+.con .con4 .con4_box1 .bgc {
+  width: 100%;
+  height: 300px;
+  background: url(../../image/rtck/service.jpg) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+.con .con4 .con4_box1 .bgc .div {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  box-sizing: border-box;
+  margin-top: 45px;
+}
+
+.con .con4 .con4_box1 .bgc .div p {
+  font-size: 18px;
+  text-indent: 2em;
+  color: #fff;
+  line-height: 30px;
+  letter-spacing: 3px;
+}
+
+.con .con4 .con4_box2 .title {
+  background: url(../../image/rtck/cont5_ettop.jpg)no-repeat center;
+  background-size: 100% 100px;
+}
+
+.con .con4 .con4_box2 ul {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.con .con4 .con4_box2 ul li {
+  float: left;
+  height: 155px;
+  margin-right: 115px;
+  margin-bottom: 40px;
+
+}
+
+.con .con4 .con4_box2 ul li:nth-child(4),
+.con .con4 .con4_box2 ul li:nth-child(7),
+.con .con4 .con4_box2 ul li:nth-child(11) {
+  margin-right: 0px;
+
+}
+
+.con .con4 .con4_box2 ul li:nth-child(5) {
+  margin-right: 250px;
+}
+
+.con .con4 .con4_box2 ul li:nth-child(6) {
+  margin-right: 245px;
+  padding-top: 20px;
+  box-sizing: border-box;
+
+}
+
+.con .con4 .con4_box2 ul li:nth-child(6) p {
+  font-size: 22px;
+  font-weight: 600;
+  color: #d3a4ff;
+}
+
+.con .con4 .con4_box2 ul li p {
+  font-size: 16px;
+  color: #F78B20;
+}
+
+.con .con4 .con4_box3 .title {
+  background: url(../../image/rtck/cont6_ettop.jpg)no-repeat center;
+  background-size: 100% 100px;
+  margin-bottom: 30px;
+}
+
+.con .con4 .con4_box3 .text_box {
+  width: 100%;
+  overflow: hidden;
+}
+.con .con4 .con4_box3 .text_box .fl {
+  width: 800px;
+  height: 200px;
+  padding: 15px;
+  box-sizing: border-box;
+  float: left;
+}
+.con .con4 .con4_box3 .text_box .fl p {
+  text-indent: 2em;
+  font-size: 18px;
+  color: #333;
+  line-height: 30px;
+}
+.con .con4 .con4_box3 .text_box .fr {
+  float: right;
+
+}
+
+.con .con4 .con4_box3 .img {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+.con .con4 .con4_box3 .img img {
+  flex: 1;
+  margin: 20px 30px;
+}
+.con .con4 .con4_box3 .img img:first-child {
+  margin-left: 0px;
+}
+.con .con4 .con4_box3 .img img:last-child {
+  margin-right: 0px;
+}
+/* 问题栏 */
+.wrapper_02 {
+  padding: 0;
+}
+
+
+.con .con4 .con4_box4 .title {
+  margin-top: 30px;
+  background: url(../../image/rtck/cont7_ettop.jpg)no-repeat center;
+  background-size: 100% 100px;
+}
+
+.con .con4 .con4_box4 ul {
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+.con .con4 .con4_box4 ul li {
+  flex: 1;
+  margin: 20px  30px;
+   text-align: center;
+} 
+.con .con4 .con4_box4 ul li:first-child {
+  margin-left: 0px;
+}
+.con .con4 .con4_box4 ul li:last-child {
+  margin-right: 0px;
+}
+.con .con4 .con4_box4 ul li img {
+ border-radius: 15px;
+}
+

@@ -1,0 +1,222 @@
+/* banner区域 */
+.banner {
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: 722px;
+  background: url(../../image/zzjs/banner.png) no-repeat center;
+    background-size: 100% 722px;
+}
+
+.banner a {
+  display: inline-block;
+  width: 425px;
+  height: 65px;
+  margin-top: 548px;
+  margin-left: 458px;
+}
+
+/* 内容区域 */
+.con {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.con .cont_01,
+.con .cont_02,
+.con .cont_03,
+.con .cont_04,
+.con .cont_05,
+.con .cont_06 {
+  width: 100%;
+}
+
+.con .cont_01 .title,
+.con .cont_02 .title,
+.con .cont_03 .title,
+.con .cont_04 .title,
+.con .cont_05 .title,
+.con .cont_06 .title {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.con .cont_01 .title h3,
+.con .cont_02 .title h3,
+.con .cont_03 .title h3,
+.con .cont_04 .title h3,
+.con .cont_05 .title h3,
+.con .cont_06 .title h3 {
+  line-height: 60px;
+  font-size: 40px;
+  color: #99BBFF;
+  margin-top: 50px;
+  letter-spacing: 4px;
+  font-weight: 400;
+}
+
+.con .cont_01 .title h3 strong,
+.con .cont_02 .title h3 strong,
+.con .cont_03 .title h3 strong,
+.con .cont_04 .title h3 strong,
+.con .cont_05 .title h3 strong,
+.con .cont_06 .title h3 strong {
+  color: #FF0000;
+}
+
+.con .cont_01 .title h3 span,
+.con .cont_02 .title h3 span,
+.con .cont_03 .title h3 span,
+.con .cont_04 .title h3 span,
+.con .cont_05 .title h3 span,
+.con .cont_06 .title h3 span {
+  letter-spacing: 0px;
+}
+
+.con .cont_01>img,
+.con .cont_02>img,
+.con .cont_03 img:nth-child(2),
+.con .cont_04>img,
+.con .cont_05 img:nth-child(2),
+.con .cont_06 img:nth-child(2) {
+  width: 100%;
+}
+
+.con .cont_01 img:nth-child(2),
+.con .cont_02 img:nth-child(2),
+.con .cont_03 img:nth-child(2),
+.con .cont_04 img:nth-child(2),
+.con .cont_05 img:nth-child(2),
+.con .cont_06 img:nth-child(2) {
+  margin: 30px 0px;
+}
+
+.con .cont_01,
+.con .cont_02,
+.con .cont_03,
+.con .cont_05 {
+  text-align: right;
+}
+
+.con .cont_01 a,
+.con .cont_02 a,
+.con .cont_03 a,
+.con .cont_05 a,
+.con .cont_06 a {
+  display: inline-block;
+  margin: 20px 0px;
+}
+
+.con .cont_02 p,
+.con .cont_05 p {
+  font-size: 20px;
+  text-indent: 2em;
+  line-height: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+.con .cont_02 p strong,
+.con .cont_05 p strong {
+  font-size: 20px;
+  color: #FF8000;
+}
+
+.con .cont_03 ul {
+  width: 100%;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.con .cont_03 ul li {
+  width: 50%;
+  float: left;
+  margin-bottom: 30px;
+}
+
+.con .cont_03 ul li:nth-child(2n) {
+  float: right;
+}
+
+.con .cont_03 ul li:nth-child(2n) .box {
+  float: right;
+}
+
+.con .cont_03 ul li:nth-child(2n) img {
+  float: right;
+}
+
+.con .cont_03 ul li:nth-child(3),
+.con .cont_03 ul li:nth-child(4) {
+  margin-bottom: 0;
+}
+
+.con .cont_03 ul li img {
+  float: left;
+}
+
+.con .cont_03 ul li .box {
+  width: 270px;
+  height: 270px;
+  background: url(../../image/zzjs/00012.png);
+  text-align: center;
+  float: left;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.con .cont_03 ul li .box h5 {
+  font-size: 25px;
+  line-height: 50px;
+  color: #FFDC35;
+}
+
+.con .cont_03 ul li .box p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  color: #f0f4fb;
+  text-indent: 2em;
+}
+
+.con .cont_06 {
+  overflow: hidden;
+}
+
+.con .cont_06 img:nth-child(3) {
+  margin-bottom: 30px;
+}
+
+.con .cont_06 a {
+  float: right;
+  vertical-align: middle;
+}
+
+.con .cont_06 ul {
+  display: flex;
+}
+
+.con .cont_06 ul li {
+  flex: 1;
+  text-align: center;
+}
+
+.con .cont_06 ul li img {
+  width: 300px;
+  display: block;
+
+}
+
+.con .cont_06 ul li h5 {
+  font-size: 25px;
+  line-height: 50px;
+  background-color: #333;
+  color: #f0f0f0;
+  border-right: 1px solid #f0f0f0;
+}

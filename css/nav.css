@@ -1,0 +1,78 @@
+/* 项目 导航栏 */
+.project_nav {
+  height: 140px;
+  animation: infinite 60s linear infinite;
+  background: url(../image/kqzz/star.jpg) repeat 0px 0px;
+}
+
+@keyframes infinite {
+  0% {
+    background-position: 0px 0px;
+  }
+
+  100% {
+    background-position: 1500px -800px;
+  }
+}
+
+.project_nav ul {
+  display: flex;
+}
+
+.project_nav .list {
+  flex: 1;
+  height: 140px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+
+.project_nav .list:last-child {
+  border-right: none;
+}
+
+.project_nav .list a {
+  display: block;
+  width: 100%;
+  height: 140px;
+  color: #fff;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.project_nav .list div {
+  height: 70px;
+  background: url('../image/icon/xm.png') no-repeat;
+}
+
+.project_nav .list .yi {
+  background-position: 43px 0px;
+}
+
+.project_nav .list .er {
+  background-position: -89px 0px;
+}
+
+.project_nav .list .san {
+  background-position: -224px 0px;
+}
+
+.project_nav .list .si {
+  background-position: -377px 0px;
+}
+
+.project_nav .list .wu {
+  background-position: -515px 0px;
+}
+
+.project_nav .list .liu {
+  background-position: -645px 0px;
+}
+
+.project_nav .list .qi {
+  background-position: -778px 0px;
+}
+
+.project_nav .list a span {
+  font-size: 21px;
+}

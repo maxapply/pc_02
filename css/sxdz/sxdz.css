@@ -1,0 +1,304 @@
+
+
+/* banner区域 */
+.banner {
+  width: 100%;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+}
+
+/* 内容区域 */
+.con {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+
+.top {
+  width: 100%;
+  margin-top: 30px;
+
+}
+
+.top > img {
+  display: block;
+  margin: 100px auto;
+}
+
+.top .top_00,
+.top .top_01,
+.top .top_02,
+.top .top_03,
+.top .top_05,
+.top .top_06 {
+  overflow: hidden;
+}
+
+
+.top .top_00 .fr,
+.top .top_01 .fl,
+.top .top_02 .fr,
+.top .top_03 .fl,
+.top .top_05 .fl,
+.top .top_06 .fl,
+.top .top_06 .fr {
+  width: 500px;
+  height: 328px;
+  float: left;
+  border: 1px solid #333;
+  position: relative;
+  padding: 15px 20px;
+  box-sizing: border-box;
+}
+
+.top .top_00 .fr:before,
+.top .top_01 .fl:before,
+.top .top_02 .fr:before,
+.top .top_03 .fl:before,
+.top .top_05 .fl:before,
+.top .top_06 .fl:before,
+.top .top_06 .fr:before {
+  content: "";
+  height: 65%;
+  width: 1px;
+  margin: auto 0;
+  left: -1px;
+  right: 0;
+  display: block;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.top .top_00 .fr:after,
+.top .top_01 .fl:after,
+.top .top_02 .fr:after,
+.top .top_03 .fl:after,
+.top .top_05 .fl:after,
+.top .top_06 .fl:after,
+.top .top_06 .fr:after {
+  content: "";
+  height: 65%;
+  width: 1px;
+  margin: auto 0;
+  right: -1px;
+  display: block;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.top .top_00 .fr .box,
+.top .top_01 .fl .box,
+.top .top_02 .fr .box,
+.top .top_03 .fl .box,
+.top .top_05 .fl .box,
+.top .top_06 .fl .box,
+.top .top_06 .fr .box {
+  width: 100%;
+  height: 100%;
+  background: url(../../image/index/00012.png);
+  background-size: 100% 100%;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.top .top_00 .fr .box h3,
+.top .top_01 .fl .box h3,
+.top .top_02 .fr .box h3,
+.top .top_03 .fl .box h3,
+.top .top_05 .fl .box h3,
+.top .top_06 .fl .box h3,
+.top .top_06 .fr .box h3 {
+  font-size: 30px;
+  color: #00E3E3;
+  margin-top: 10px;
+  letter-spacing: 4px;
+}
+
+.top .top_00 .fr .box i,
+.top .top_01 .fl .box i,
+.top .top_02 .fr .box i,
+.top .top_03 .fl .box i,
+.top .top_05 .fl .box i,
+.top .top_06 .fl .box i,
+.top .top_06 .fr .box i {
+  font-size: 16px;
+  color: #fff;
+  line-height: 35px;
+}
+
+
+.top .top_00 .fr .box p,
+.top .top_01 .fl .box p,
+.top .top_02 .fr .box p,
+.top .top_03 .fl .box p,
+.top .top_05 .fl .box p,
+.top .top_06 .fl .box p,
+.top .top_06 .fr .box p {
+  font-size: 18px;
+  color: #FF8000;
+  line-height: 35px;
+  letter-spacing: 2px;
+}
+
+.top .top_00 .fr .box a,
+.top .top_01 .fl .box a,
+.top .top_02 .fr .box a,
+.top .top_03 .fl .box a,
+.top .top_05 .fl .box a,
+.top .top_06 .fl .box a,
+.top .top_06 .fr .box a {
+  display: inline-block;
+  padding: 5px 20px;
+  border: 1px solid #EA0000;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #EA0000;
+  letter-spacing: 4px;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px #EA0000;
+  background-color: #e4f7ff;
+}
+
+.top .top_00 .fr .box a span,
+.top .top_01 .fl .box a span,
+.top .top_02 .fr .box a span,
+.top .top_03 .fl .box a span,
+.top .top_05 .fl .box a span,
+.top .top_06 .fl .box a span,
+.top .top_06 .fr .box a span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url(../../image/sxdz/dj.png)no-repeat center;
+  background-size: 30px 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.top .top_00 .fr .box:before,
+.top .top_01 .fl .box:before,
+.top .top_02 .fr .box:before,
+.top .top_03 .fl .box:before,
+.top .top_05 .fl .box:before,
+.top .top_06 .fl .box:before,
+.top .top_06 .fr .box:before {
+  content: "";
+  height: 1px;
+  width: 60%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  display: block;
+  background: #fff;
+  top: -1px;
+  position: absolute;
+}
+
+.top .top_00 .fr .box:after,
+.top .top_01 .fl .box:after,
+.top .top_02 .fr .box:after,
+.top .top_03 .fl .box:after,
+.top .top_05 .fl .box:after,
+.top .top_06 .fl .box:after,
+.top .top_06 .fr .box:after {
+  content: "";
+  height: 1px;
+  width: 60%;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  display: block;
+  background: #fff;
+  bottom: -1px;
+  position: absolute;
+}
+
+.top .top_00 .fl img {
+  width: 490px;
+}
+
+
+
+
+.top .top_00 .fr,
+.top .top_01 .fr,
+.top .top_02 .fr,
+.top .top_03 .fr,
+.top .top_05 .fr,
+.top .top_06 .fr {
+  float: right;
+}
+
+.top .top_00,
+.top .top_01,
+.top .top_02,
+.top .top_03,
+.top .top_05,
+.top .top_06 {
+  margin-top: 50px;
+}
+
+.top .top_00 .fl,
+.top .top_02 .fl,
+.top .top_03 .fl,
+.top .top_05 .fl,
+.top .top_06 .fl {
+  float: left;
+}
+
+.top .top_03 .fr img {
+  width: 650px;
+}
+
+
+
+.top .top_00 .fr .box h3,
+.top .top_05 .fl .box h3 {
+  margin-top: -5px;
+}
+
+.top .top_00 .fr {
+  width: 668px;
+}
+
+.top .top_02 .fl {
+  overflow: hidden;
+  height: 328px;
+}
+
+.top .top_02 .fl img,
+.top .top_06 .content img {
+  float: left;
+}
+
+
+
+.top .top_06 .content {
+  width: 326px;
+  margin: 0 auto;
+}
+
+.top .top_02 .fl img:nth-child(2) {
+  width: 350px;
+}
+
+.top .top_02 .fl .two {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.top .top_06 .fl,
+.top .top_06 .fr {
+  width: 410px;
+}

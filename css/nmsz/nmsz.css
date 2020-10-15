@@ -1,0 +1,417 @@
+/* banner区域 */
+.banner {
+  width: 100%;
+}
+
+.banner .banner1,
+.banner2,
+.banner3,
+.banner4,
+.banner5 {
+  width: 100%;
+  margin: 0 auto;
+  height: 123px;
+  text-align: center;
+}
+
+.banner1 {
+  background: url(../../image/nmsz/nm_resin_banner_01.jpg) no-repeat;
+  background-size: 100% 124px;
+
+}
+
+.banner2 {
+  background: url(../../image/nmsz/nm_resin_banner_02.jpg) no-repeat;
+  background-size: 100% 124px;
+}
+
+.banner3 {
+  background: url(../../image/nmsz/nm_resin_banner_03.jpg) no-repeat;
+  background-size: 100% 124px;
+}
+
+.banner4 {
+  background: url(../../image/nmsz/nm_resin_banner_04.jpg) no-repeat;
+  background-size: 100% 124px;
+}
+
+/* 内容区域 */
+.con {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.con .con_01 {
+  width: 100%;
+
+}
+
+.con .con_01 .title,
+.con .con_02 .title,
+.con .con_03 .title,
+.con_04 .title,
+.con .con_05 .title {
+  height: 80px;
+  text-align: center;
+}
+
+.con .con_01 .title h3,
+.con .con_02 .title h3,
+.con .con_03 .title h3,
+.con_04 .title h3,
+.con .con_05 .title h3 {
+  line-height: 60px;
+  font-size: 40px;
+  color: #005baf;
+  margin-top: 60px;
+  letter-spacing: 2px;
+}
+
+.con .con_01 ul {
+  display: flex;
+}
+
+.con .con_01 ul li {
+  flex: 1;
+  margin: 0px 30px;
+  text-align: center;
+}
+
+.con .con_01 ul li p {
+  margin-top: -90px;
+  font-size: 15px;
+  line-height: 22px;
+  padding: 0 12px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.con .con_01>a {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.con .con_02 {
+  overflow: hidden;
+}
+
+.con .con_02>p,
+.con .con_03>p {
+  font-size: 20px;
+  text-indent: 2em;
+  line-height: 30px;
+  color: #333;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.con .con_02 p span,
+.con .con_03 p span {
+  color: #ff8000;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.con .con_02 .btn {
+  float: right;
+  width: 150px;
+  height: 50px;
+  background-color: #ff8000;
+  border-radius: 20px;
+}
+
+.con .con_02 .btn a {
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.con .con_02 ul {
+  display: flex;
+  margin-top: 100px;
+  position: relative;
+}
+
+.con .con_02 ul li {
+  flex: 1;
+  margin: 0 30px;
+  text-align: center;
+
+}
+
+.con .con_02 ul li img {
+  border-radius: 50%;
+  border: 1px solid #1583e9;
+
+
+}
+
+.con .con_02 ul li:after {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  content: '';
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  top: -9px;
+  left: 89px;
+  border-radius: 50%;
+  padding: 0;
+  z-index: -1;
+  box-shadow: 0 0 0 2px #1583e9;
+  opacity: 1;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-animation: sonarEffect 1.3s ease-out 75ms infinite;
+  animation: sonarEffect 1.3s ease-out 75ms infinite;
+}
+
+@-webkit-keyframes sonarEffect {
+  0% {
+    opacity: 0.3;
+  }
+
+  40% {
+    opacity: 0.5;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
+  }
+
+  100% {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1), 0 0 10px 10px #3851bc, 0 0 0 10px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+    opacity: 0;
+  }
+}
+
+.con .con_02 ul li:nth-child(2):after {
+  left: 390px;
+}
+
+.con .con_02 ul li:nth-child(3):after {
+
+  left: 690px;
+}
+
+.con .con_02 ul li:nth-child(4):after {
+
+  left: 990px;
+}
+
+.con .con_02 ul li p {
+  margin-top: 30px;
+  font-size: 20px;
+  color: #2894FF;
+}
+
+.con .con_03 {
+  overflow: hidden;
+}
+
+.con .con_03 .fl {
+  width: 50%;
+  float: left;
+}
+
+.con .con_03 .fr {
+  width: 50%;
+  float: right;
+}
+
+.con .con_03 .fr .top,
+.con .con_03 .fr .bot {
+  width: 300px;
+  height: 50px;
+  background-color: #ff5a00;
+  margin-left: 289px;
+  margin-top: 100px;
+  border-radius: 20px;
+
+}
+
+.con .con_03 .fr .bot {
+  background-color: #fe9917;
+}
+
+.con .con_03 .fr .top a,
+.con .con_03 .fr .bot a {
+  display: inline-block;
+  width: 100%;
+  line-height: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+
+
+
+.con .con_03 ul {
+  width: 100%;
+  overflow: hidden;
+}
+
+.con .con_03 ul li {
+  width: 600px;
+  border: 1px dashed #ccc;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.con .con_03 ul li h5 {
+  font-size: 22px;
+  color: #750075;
+}
+
+.con .con_03 ul li p {
+  text-indent: 2em;
+  font-size: 18px;
+  color: #333;
+  line-height: 30px;
+  letter-spacing: 2px;
+}
+
+.con .con_03 ul li:last-child {
+  width: 100%;
+}
+
+.con_04 {
+  width: 100%;
+  overflow: hidden;
+  background-color: #eee;
+  margin-top: 20px;
+}
+
+.con_04 img {
+  display: block;
+  float: left;
+}
+
+.con_04 .box {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.con .con_05 {
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.con .con_05 .title p {
+  font-size: 22px;
+  text-align: center;
+}
+
+.con .con_05 .box {
+  width: 100%;
+  background: url(../../image/nmsz/test.png)no-repeat center;
+  background-size: 100% 560px;
+  overflow: hidden;
+
+}
+
+.con .con_05 ul {
+  overflow: hidden;
+  margin-top: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.con .con_05 ul li {
+  width: 250px;
+  float: left;
+  border: 1px solid #666;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  box-shadow: -4px 5px 7px #333;
+  background-color: #fff;
+  margin-left: 40px;
+  border-radius: 20px;
+}
+
+.con .con_05 ul li:nth-child(2),
+.con .con_05 ul li:nth-child(4) {
+  margin-top: 200px;
+}
+
+.con .con_05 ul li:nth-child(2) h5 span {
+  background: url(../../image/nmsz/nm_resin_con05_num_09.jpg)no-repeat center;
+  background-size: 40px 40px;
+}
+
+.con .con_05 ul li:nth-child(3) h5 span {
+  background: url(../../image/nmsz/nm_resin_con05_num_05.jpg)no-repeat center;
+  background-size: 40px 40px;
+}
+
+.con .con_05 ul li:nth-child(4) h5 span {
+  background: url(../../image/nmsz/nm_resin_con05_num_10.jpg)no-repeat center;
+  background-size: 40px 40px;
+}
+
+.con .con_05 ul li h5 {
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  color: #009100;
+}
+
+.con .con_05 ul li h5 span {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background: url(../../image/nmsz/nm_resin_con05_num_03.jpg)no-repeat center;
+  background-size: 40px 40px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.con .con_05 ul li p {
+  text-indent: 2em;
+  text-align: left;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.con .con_05 .box img {
+  float: left;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+.con .con_05 .box .btn {
+  width: 700px;
+  height: 60px;
+  float: right;
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.con .con_05 .box .btn a {
+  display: inline-block;
+  width: 250px;
+  height: 60px;
+  background-color: #ff5a00;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+  color: #fff;
+  float: left;
+  margin-right: 50px;
+  border-radius: 20px;
+}
+
+.con .con_05 .box .btn a:nth-child(2) {
+  background-color: #fe9917;
+}

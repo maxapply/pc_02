@@ -1,0 +1,275 @@
+/* banner区域 */
+.banner {
+  width: 100%;
+  text-align: center;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/* 内容区域 */
+
+.con {
+  width: 100%;
+}
+
+.con .cont_01 {
+  width: 1200px;
+  margin: 0 auto;
+
+}
+
+.con .cont_01 .title {
+  height: 80px;
+  text-align: center;
+}
+
+
+
+
+
+
+
+.con .cont_01 .title h3 {
+  display: inline-block;
+  line-height: 60px;
+  font-size: 40px;
+  color: #2894FF;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  border-bottom: 1px dashed #ff8000;
+
+}
+
+
+
+
+
+
+
+
+/* 医生团队 盒子 */
+.team_box {
+  overflow: hidden;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+/* 左医生列表 */
+.team_box .team_box_fl {
+  width: 460px;
+  height: 715px;
+  float: left;
+  border: 1px dashed #ccc;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.team_box .team_box_fl .grxx {
+  padding: 10px;
+  height: 180px;
+  box-sizing: border-box;
+  width: 105px;
+  border: 1px solid #ccc;
+  float: left;
+  margin: 25px 20px;
+  cursor: pointer;
+  transition: 800ms ease all;
+  position: relative;
+}
+
+.team_box .team_box_fl .grxx :hover {
+  background: #fff;
+  color: #1AAB8A;
+}
+
+.team_box .team_box_fl .grxx:before,
+.team_box .team_box_fl .grxx:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #1AAB8A;
+  transition: 400ms ease all;
+}
+
+.team_box .team_box_fl .grxx:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.team_box .team_box_fl .grxx:hover:before,
+.team_box .team_box_fl .grxx:hover:after {
+  width: 100%;
+  transition: 800ms ease all;
+}
+
+
+
+
+
+
+
+
+
+.team_box .team_box_fl .grxx img {
+  width: 80px;
+}
+
+.team_box .team_box_fl .grxx p {
+  font-size: 20px;
+  line-height: 50px;
+  color: #28649d;
+  text-align: center;
+  font-weight: 600;
+}
+
+.team_box .team_box_fl .grxx span {
+  display: block;
+  font-size: 16px;
+  color: #333;
+  text-align: center;
+}
+
+
+.team_box .team_box_fl .grxx .top_but,
+.team_box .team_box_fl .grxx .bot_but {
+  display: block;
+  padding: 13px 20px;
+  box-sizing: border-box;
+  background-color: #007aaa;
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 3px;
+  border-radius: 10px;
+}
+
+.team_box .team_box_fl .grxx .top_but {
+  background-color: #FF7900;
+  margin-bottom: 10px;
+
+}
+
+/* 右医生个人信息 */
+.team_box .team_box_fr {
+  width: 58%;
+  height: 715px;
+  float: right;
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.team_box .team_box_fr .team_box01 {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+.team_box .team_box_fr .team_box01:nth-child(4) .team_js {
+  height: 247px;
+}
+
+.team_box .team_box_fr .team_box01:last-child .team_js {
+  height: 161px;
+}
+
+.team_box .team_box_fr .team_box01 .img {
+  width: 100%;
+  height: 695px;
+  background: url(../../image/index/bg_1.jpg) no-repeat center;
+  background-size: 100% 695px;
+  overflow: hidden;
+}
+
+.team_box .team_box_fr .team_box01 .img .img_btnbox {
+  width: 300px;
+  float: right;
+  margin-top: 350px;
+}
+
+.team_box .team_box_fr .team_box01 .img .img_btnbox a {
+  display: inline-block;
+  padding: 5px 15px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.team_box .team_box_fr .team_box01 .img .img_btnbox a:first-child {
+  background-color: #FF7900;
+
+}
+
+.team_box .team_box_fr .team_box01 .img .img_btnbox a:last-child {
+  background-color: #007aaa;
+  margin-left: 30px;
+}
+
+
+
+
+.team_box .team_box_fr .team_box01 img {
+  text-align: center;
+}
+
+.team_box .team_box_fr .team_box01 .team_js {
+  width: 50%;
+  float: left;
+  border-right: 1px solid #666;
+  margin-top: 10px;
+}
+
+.team_box .team_box_fr .team_box01 .team_js strong {
+
+  font-size: 30px;
+  color: #28649d;
+}
+
+.team_box .team_box_fr .team_box01 .team_js span {
+
+  font-size: 20px;
+  color: #BE77FF;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.team_box .team_box_fr .team_box01 .team_js .lis {
+  text-align: left;
+  font-size: 14px;
+  line-height: 22px;
+  color: #e96613;
+  margin-left: 50px;
+}
+
+.team_box .team_box_fr .team_box01 .team_sc {
+  width: 49%;
+  float: left;
+  padding: 15px 20px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.team_box .team_box_fr .team_box01 .team_sc strong {
+  font-size: 18px;
+  color: #666;
+  position: absolute;
+  left: 20px;
+}
+
+.team_box .team_box_fr .team_box01 .team_sc p {
+  font-size: 16px;
+  color: #e96613;
+  text-indent: 2em;
+  text-align: left;
+  margin-top: 10px;
+}

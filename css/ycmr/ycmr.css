@@ -1,0 +1,505 @@
+/* banner区域 */
+.banner {
+  width: 100%;
+}
+
+.banner .banner1,
+.banner2,
+.banner3,
+.banner4 {
+  width: 100%;
+  margin: 0 auto;
+  height: 123px;
+  text-align: center;
+}
+
+.banner1 {
+  background: url(../../image/ycmr/zt_hcmb_banner_01.jpg) no-repeat;
+   background-size: 100% 124px;
+}
+
+.banner2 {
+  background: url(../../image/ycmr/zt_hcmb_banner_02.jpg) no-repeat;
+  background-size: 100% 124px;
+}
+
+.banner3 {
+  background: url(../../image/ycmr/zt_hcmb_banner_03.jpg) no-repeat;
+  background-size: 100% 124px;
+}
+
+.banner4 {
+  background: url(../../image/ycmr/zt_hcmb_banner_04.jpg) no-repeat;
+  background-size: 100% 124px;
+}
+
+
+/* 内容区域 */
+.con {
+  box-shadow: 0px 0px 60px #333;
+}
+
+/* 内容1  你是否和他们一样*/
+.con .con_01 {
+  width: 100%;
+}
+
+.con .con_01 .title,
+.con .con_02 .title,
+.con .con_03 .title,
+.con .con_05 .title,
+.con .con_06 .title,
+.con .con_07 .title,
+.con .con_08 .title {
+  height: 80px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.con .con_01 .title h3,
+.con .con_02 .title h3,
+.con .con_03 .title h3,
+.con .con_05 .title h3,
+.con .con_06 .title h3,
+.con .con_07 .title h3,
+.con .con_08 .title h3 {
+  font-size: 40px;
+  text-align: center;
+  position: relative;
+  line-height: 80px;
+  letter-spacing: 2px;
+  background: linear-gradient(to right, #cc00cc, #4a8aff, #1ae8c8, #ff8800, #9f88ff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.con .con_01 .con_01box {
+  width: 100%;
+  text-align: center;
+}
+
+.con .con_01 .con_01box .text {
+  width: 1100px;
+  line-height: 30px;
+  margin: 30px auto;
+  text-align: left;
+
+}
+
+.con .con_01 .con_01box p {
+  font-size: 16px;
+  text-indent: 2em;
+  color: #333;
+}
+
+/* 内容2  优贝皓齿美白与冷光美白的区别*/
+
+.con .con_02 {
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.con .con_02 .con_02box {
+  width: 100%;
+  overflow: hidden;
+  background-color: #f3fad7;
+  border-radius: 15px;
+}
+
+.con .con_02 .con_02box .con_02_title {
+  width: 100%;
+  height: 100px;
+
+  overflow: hidden;
+  background-color: #cedef9;
+}
+
+.con .con_02 .con_02box .con_02_title ul {
+  overflow: hidden;
+  float: right;
+}
+
+.con .con_02 .con_02box .con_02_title ul li {
+  width: 120px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  float: left;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+  color: #ff8800;
+
+
+}
+
+.con .con_02 .con_02box .con_02_title ul li:last-child {
+  border-right: 0px;
+}
+
+.con .con_02 .con_02box .con_02_title ul li h6 {
+  font-size: 18px;
+  font-weight: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.con .con_02 .con_02box .fl {
+  float: left;
+  width: 300px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.con .con_02 .con_02box .fl img {
+  width: 300px;
+}
+
+.con .con_02 .con_02box .fl img:nth-child(2) {
+  width: 50px;
+  margin: 5px auto;
+
+}
+
+.con .con_02 .con_02box .fr {
+  float: right;
+  width: 842px;
+  text-align: center;
+}
+
+.con .con_02 .con_02box .fr ul {
+  overflow: hidden;
+  float: left;
+  border-bottom: 1px solid #4a8aff;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  border-left: 1px solid #4a8aff;
+}
+
+.con .con_02 .con_02box .fr ul:last-child {
+  border-bottom: 0px;
+}
+
+.con .con_02 .con_02box .fr ul li {
+  width: 99px;
+  text-align: center;
+  float: left;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 10px;
+  color: #333;
+  font-size: 16px;
+  border-bottom: 2px solid #333;
+  box-shadow: 0px 2px 3px #333;
+
+}
+
+.con .con_02 .con_02box .fr ul li:nth-child(5),
+.con .con_02 .con_02box .fr ul li:nth-child(6) {
+  margin-left: 12px;
+}
+
+.con .con_02 .con_02box .fr ul li:nth-child(7) {
+  margin-left: 11px;
+}
+
+.con .con_02 .con_02box .fr ul li p {
+  font-size: 16px;
+  line-height: 23px;
+}
+
+.con .con_02 .con_02btn {
+  width: 100%;
+  height: 80px;
+}
+
+.con .con_02 .con_02btn div {
+  float: left;
+  width: 50%;
+  height: 80px;
+  text-align: center;
+}
+
+.con .con_02 .con_02btn div span,
+.con .con_06 .con_06btn div span {
+  width: 30px;
+  height: 30px;
+  line-height: 60px;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  background: url(../../image/ycmr/yc.png)no-repeat center;
+  background-size: 30px;
+  margin-top: -4px;
+
+}
+
+.con .con_02 .con_02btn div a,
+.con .con_06 .con_06btn div a {
+  text-align: center;
+  line-height: 80px;
+  font-size: 22px;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  background-color: #009946;
+  color: #fff;
+  letter-spacing: 5px
+}
+
+.con .con_03 .top {
+  width: 100%;
+  text-align: center;
+}
+
+
+.con .con_05 {
+  overflow: hidden;
+}
+
+.con .con_05 .title {
+  margin-top: 0px;
+}
+
+
+
+.con .con_05 .con_05box {
+  width: 850px;
+  height: 520px;
+  background: url(../../image/ycmr/00012.png);
+  float: right;
+  position: relative;
+}
+
+.con .con_05 .con_05box .img {
+  width: 450px;
+  margin-left: -200px;
+  margin-top: 50px;
+  border: 3px solid #009946;
+  padding: 30px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.con .con_05 .con_05box .img img {
+  width: 380px;
+}
+
+.con .con_05 .con_05box .text {
+  width: 500px;
+  float: right;
+  margin-top: 50px;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.con .con_05 .con_05box .text h5 {
+  font-size: 22px;
+  color: #f0f0f0;
+  margin-bottom: 30px;
+}
+
+
+.con .con_05 .con_05box .text ul li {
+  font-size: 16px;
+  color: #f3fad7;
+  line-height: 30px;
+}
+
+.con .con_05 .con_05box .text ul li span {
+  font-weight: 600;
+  font-size: 17px;
+  color: #ff8800;
+}
+
+.con .con_05 .con_05box .text>p {
+  color: #1ae8c8;
+  font-size: 16px;
+  text-indent: 2em;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+.con .con_05 .con_05box .con_05btn {
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+}
+
+.con .con_05 .con_05box .con_05btn div {
+  width: 50%;
+  height: 60px;
+  float: left;
+  text-align: center;
+}
+
+.con .con_05 .con_05box .con_05btn div a {
+  padding: 10px 20px;
+  line-height: 60px;
+  box-sizing: border-box;
+  background-color: #009946;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.con .con_05 .con_05box .con_05btn div a span {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: url(../../image/ycmr/yc.png)no-repeat center;
+  background-size: 30px;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-top: -4px;
+}
+
+.con .con_06 {
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.con .con_06 .con_06box {
+  width: 800px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 10px #333;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f0f0f0;
+  margin-bottom: 30px;
+}
+
+.con .con_06 .con_06box p {
+  font-size: 18px;
+  text-indent: 2em;
+  line-height: 30px;
+  color: #ff8800;
+
+}
+
+.con .con_06 .con_06box p span {
+  color: #009946;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.con .con_06 .con_lis {
+  width: 100%;
+  height: 350px;
+  background: url(../../image/ycmr/bgc.jpg) no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 1000px;
+  background-size: 100% 1200px;
+}
+
+.con .con_06 .con_lis .con_lisbgc {
+  width: 100%;
+  height: 350px;
+  background-color: #333;
+  opacity: .7;
+}
+
+.con .con_06 .con_lis .con_lisbgc ul {
+  width: 100%;
+  height: 300px;
+}
+
+.con .con_06 .con_lis .con_lisbgc ul li {
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin: 50px 25px;
+  background: rgba(255, 255, 255, 0.72);
+  text-align: center;
+  border-radius: 20px;
+}
+
+.con .con_06 .con_lis .con_lisbgc ul li h5 {
+  display: inline-block;
+  font-size: 18px;
+  color: #009946;
+  border: 1px solid #333;
+  padding: 5px 20px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.con .con_06 .con_lis .con_lisbgc ul li p {
+  font-size: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  line-height: 30px;
+  color: #8600FF;
+  text-indent: 2em;
+  text-align: left;
+}
+
+.con .con_06 .con_06btn {
+  width: 100%;
+  height: 80px;
+}
+
+.con .con_06 .con_06btn div {
+  float: left;
+  width: 50%;
+  height: 80px;
+  text-align: center;
+}
+
+.con .con_07 .title {
+  margin-top: 0px;
+}
+
+.con .con_07 .con_lis {
+  width: 100%;
+  text-align: center;
+}
+
+.con .con_07 .con_lis ul {
+  display: flex;
+}
+
+.con .con_07 .con_lis ul li {
+  text-align: center;
+
+  flex: 1
+}
+
+.con .con_07 .con_lis ul li img {
+  border-radius: 50%;
+
+}
+
+.con .con_07 .con_lis ul li h5 {
+  font-size: 20px;
+  color: #ff8800;
+  line-height: 50px;
+}
+
+.con .con_07 .con_lis ul li p {
+  font-size: 16px;
+  color: #009946;
+  line-height: 30px;
+}
+
+.con .con_07 .con_lis img {
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.con .con_08 .title {
+  margin-bottom: 0px;
+}

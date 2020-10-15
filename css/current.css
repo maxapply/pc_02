@@ -1,0 +1,21 @@
+/* 初始化样式 */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+  max-width: 100%;
+  min-width: 1500px;
+
+}
+
+.w {
+  width: 1200px;
+  margin: 0 auto;
+
+}

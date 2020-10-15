@@ -1,0 +1,236 @@
+/* 底部栏 */
+.but {
+  width: 100%;
+  height: 400px;
+  background-color: #1d334a;
+  /* background: url('../../image/index/but.png') no-repeat; */
+}
+
+/* 左盒子 */
+.but .but_boxfl {
+  width: 336px;
+  height: 400px;
+  padding: 15px;
+  box-sizing: border-box;
+  float: left;
+  margin-left: 20px;
+  background-color: #207fdd;
+}
+
+.but .but_boxfl .but_fl {
+  float: left;
+
+}
+
+.but .but_boxfl .but_tit p {
+  font-size: 20px;
+  font-weight: 600;
+  color: #FF7900;
+  line-height: 60px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+
+}
+
+
+.but .but_boxfl .but_ul {
+  width: 85px;
+  float: left;
+  margin-top: 30px;
+}
+
+.but .but_boxfl .but_li {
+  font-size: 18px;
+  text-align: center;
+  height: 50px;
+  border-bottom: 1px solid #fff;
+}
+
+.but .but_boxfl .but_li .but_a {
+  display: block;
+  width: 85px;
+  height: 50px;
+  line-height: 50px;
+  color: #fff;
+  float: left;
+  font-size: 15px;
+}
+
+.but .but_boxfl .but_li {
+  position: relative;
+}
+
+.but .but_boxfl .but_li .but_list {
+  position: absolute;
+  z-index: 9;
+  width: 460px;
+  height: 50px;
+  float: left;
+  background-color: #f0f0f0;
+  display: none;
+  left: 100px;
+}
+
+.but .but_boxfl .but_li .but_list li {
+  width: 150px;
+  float: left;
+  font-size: 16px;
+  line-height: 25px;
+  color: #007aaa;
+}
+
+.but .but_boxfl .but_li .but_list li a {
+  color: #333;
+}
+
+.but_fr {
+  float: right;
+  width: 200px;
+  height: 300px;
+  background: url(../../image/index/flogo.png) no-repeat center;
+  background-size: 200px;
+}
+
+/* 中盒子 */
+.but_con {
+  width: 460px;
+  height: 376px;
+  float: left;
+  padding-top: 150px;
+  box-sizing: border-box;
+}
+
+.but_con p {
+  text-align: center;
+  font-size: 12px;
+  color: #ccc;
+  line-height: 25px;
+
+}
+
+.but_boxfr {
+  width: 380px;
+  height: 376px;
+  float: right;
+  position: relative;
+}
+
+.but_boxfr img {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+
+
+
+
+
+
+
+
+
+/* 弹出层 */
+body {
+  position: relative;
+}
+
+.pop_up {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 700px;
+  height: 377px;
+  background-color: #db190d;
+  z-index: 9999;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 0px 20px #333;
+}
+
+.pop_up .pop_top {
+  width: 100%;
+  text-align: center;
+  position: relative;
+
+}
+
+.pop_up .pop_top i {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  background: url(../image/x.png) no-repeat center;
+  background-size: 30px 30px;
+}
+
+.pop_up .pop_bot {
+  width: 100%;
+  overflow: hidden;
+}
+
+.pop_up .pop_bot .pop_botfl {
+  width: 35%;
+  float: left;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.pop_up .pop_bot .pop_botfl span,
+.pop_up .pop_bot .pop_botfl span {
+  font-size: 20px;
+  letter-spacing: 2px;
+  vertical-align: middle;
+  font-weight: 600;
+  color: #fbedb9;
+}
+
+.pop_up .pop_bot .pop_botfr {
+  width: 25%;
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #ee8b76;
+  display: block;
+  float: right;
+  margin-right: 10px;
+  font-size: 20px;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.pop_up .pop_bot input {
+  width: 134px;
+  height: 30px;
+  margin-left: 10px;
+  vertical-align: middle;
+  border-radius: 8px;
+  border: 0px;
+  padding-left: 10px;
+
+}
+
+.pop_up .pop_bot input:focus {
+  outline: none;
+}
+
+.pop_up .pop_bot .pop_botfl #nameNo,
+.pop_up .pop_bot .pop_botfl #photoNo {
+  font-size: 18px;
+  color: #4DFFFF;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-left: 65px;
+  display: none;
+}
+
+.pop_up .pop_bot .pop_botfl #photoNo {
+  margin-left: 85px;
+}
